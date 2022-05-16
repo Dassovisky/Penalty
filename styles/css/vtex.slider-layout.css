@@ -1,12 +1,9 @@
 .sliderLayoutContainer {
   justify-content: center;
 }
-.sliderLayoutContainer--carousel {
-  background-color: #F0F0F0;
-}
 
 .sliderTrackContainer {
-  max-width: 1520px;
+  max-height: 750px;
 }
 
 .paginationDotsContainer {
