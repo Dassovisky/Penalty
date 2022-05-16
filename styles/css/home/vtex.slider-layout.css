@@ -1,0 +1,11 @@
+.slideChildrenContainer--shelf{
+    margin: 0 0 30px 0;
+}
+
+.slideChildrenContainer--shelf{
+    margin: 10px 5px;
+    padding: 0 0 15px 0;
+    border-radius: 15px;
+    border: 1px #eceff0 solid;
+}
+

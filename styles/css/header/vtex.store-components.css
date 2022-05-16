@@ -1,0 +1,7 @@
+/* Notification Bar */
+.notificationBarContainer {
+  background-color: #009b4e;
+  font-size: 12px;
+  font-weight: bold;
+  height: 50px;
+}
