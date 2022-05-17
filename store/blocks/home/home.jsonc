@@ -51,6 +51,9 @@
     }
   },
   "flex-layout.row#shelf": {
+    "props":{
+      "blockClass": "shelf_flexRow"
+    },
     "children": [
       "list-context.product-list#demo"
     ]
@@ -70,7 +73,7 @@
         "phone": 1
       },
       "infinite": true,
-      "fullWidth": true,
+      "fullWidth": false,
       "blockClass": "shelf"
     }
   },

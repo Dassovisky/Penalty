@@ -1,7 +1,7 @@
 /* Info Card  */
 .infoCardContainer--info-card-example{
     height: 700px;
-    margin: 15px 0;
+    margin: 0 0 15px 0;
 }
 .infoCardHeadline--info-card-example,
 .infoCardSubhead--info-card-example{

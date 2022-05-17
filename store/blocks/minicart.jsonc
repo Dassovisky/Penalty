@@ -1,7 +1,7 @@
 {
   "add-to-cart-button": {
     "props": {
-      "text": "Adicionar ao carrinho",
+      "text": "COMPRAR",
       "addToCartFeedback": "customEvent",
       "customPixelEventId": "add-to-cart-button"
     }
