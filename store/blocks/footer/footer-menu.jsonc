@@ -1,0 +1,304 @@
+{
+  // Column 2 
+  "vtex.menu@2.x:menu#institucional": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "rich-text#title-institucional",
+      "menu-item#quem-somos",
+      "menu-item#trabalhe-conosco",
+      "menu-item#universidade-penalty",
+      "menu-item#penalty-internacional",
+      "menu-item#nossas-lojas",
+      "menu-item#cambucisa",
+      "menu-item#contato"
+    ]
+  },
+
+  "rich-text#title-institucional":{
+    "props":{
+      "blockClass": "footer_title",
+      "text": "Institucional"
+    }
+  },
+  "menu-item#quem-somos": {
+    "props": {
+      "blockClass": "footer_li",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Quem Somos",
+        "text": "Quem Somos"
+      }
+    }
+  },
+  "menu-item#trabalhe-conosco": {
+    "props": {
+      "blockClass": "footer_li",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Trabalhe Conosco",
+        "text": "Trabalhe Conosco"
+      }
+    }
+  },
+  "menu-item#universidade-penalty": {
+    "props": {
+      "blockClass": "footer_li",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Universidade Penalty",
+        "text": "Universidade Penalty"
+      }
+    }
+  },
+  "menu-item#penalty-internacional": {
+    "props": {
+      "blockClass": "footer_li",
+      "id": "menu-item-personalization",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Penalty Internacional",
+        "text": "Penalty Internacional"
+      }
+    }
+  },
+  "menu-item#nossas-lojas": {
+    "props": {
+      "blockClass": "footer_li",
+      "id": "menu-item-personalization",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Nossas Lojas",
+        "text": "Nossas Lojas"
+      }
+    }
+  },
+  "menu-item#cambucisa": {
+    "props": {
+      "blockClass": "footer_li",
+      "id": "menu-item-personalization",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Cambuci SA",
+        "text": "Cambuci SA"
+      }
+    }
+  },
+  "menu-item#contato": {
+    "props": {
+      "blockClass": "footer_li",
+      "id": "menu-item-personalization",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Contato",
+        "text": "Contato"
+      }
+    }
+  },
+
+  // Column 3
+  "vtex.menu@2.x:menu#informacoes": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "rich-text#title-informacoes",
+      "menu-item#acompanhar-pedidos",
+      "menu-item#perguntas-frequentes",
+      "menu-item#trocas-devolucoes",
+      "menu-item#politica-privacidade",
+      "menu-item#formas-pagamento",
+      "menu-item#atendimento-corporativo",
+      "menu-item#tabela-medidas"
+    ]
+  },
+  
+  "rich-text#title-informacoes":{
+    "props":{
+      "blockClass": "footer_title",
+      "text": "Informações"
+    }
+  },
+  "menu-item#acompanhar-pedidos": {
+    "props": {
+      "blockClass": "footer_li",
+      "id": "menu-item-category-clothing",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/clothing/d",
+        "noFollow": true,
+        "tagTitle": "Acompanhar meus Pedidos",
+        "text": "Acompanhar meus Pedidos"
+      }
+    }
+  },
+
+  "menu-item#perguntas-frequentes": {
+    "props": {
+      "blockClass": "footer_li",
+      "id": "menu-item-shorts",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/clothing/shorts",
+        "noFollow": false,
+        "tagTitle": "Perguntas Frequentes",
+        "text": "Perguntas Frequentes"
+      }
+    }
+  },
+
+  "menu-item#trocas-devolucoes": {
+    "props": {
+      "blockClass": "footer_li",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/clothing/tank-tops",
+        "noFollow": false,
+        "tagTitle": "Trocas e Devoluções",
+        "text": "Trocas e Devoluções"
+      }
+    }
+  },
+
+  "menu-item#politica-privacidade": {
+    "props": {
+      "blockClass": "footer_li",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/clothing/shirts",
+        "noFollow": false,
+        "tagTitle": "Política de Privacidade",
+        "text": "Política de Privacidade"
+      }
+    }
+  },
+
+  "menu-item#formas-pagamento": {
+    "props": {
+      "blockClass": "footer_li",
+      "id": "menu-item-sweat-shirts",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/clothing/sweatshirt",
+        "noFollow": false,
+        "tagTitle": "Formas de Pagamento",
+        "text": "Formas de Pagamento"
+      }
+    }
+  },
+
+  "menu-item#atendimento-corporativo": {
+    "props": {
+      "blockClass": "footer_li",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/clothing/cropped",
+        "noFollow": false,
+        "tagTitle": "Atendimento Corporativo",
+        "text": "Atendimento Corporativo"
+      }
+    }
+  },
+
+  "menu-item#tabela-medidas": {
+    "props": {
+      "blockClass": "footer_li",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/clothing/cropped",
+        "noFollow": false,
+        "tagTitle": "Tabela de Medidas",
+        "text": "Tabela de Medidas"
+      }
+    }
+  },
+
+  // Mobile 
+  "vtex.menu@2.x:menu#institucional-mobile": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#quem-somos",
+      "menu-item#trabalhe-conosco",
+      "menu-item#universidade-penalty",
+      "menu-item#penalty-internacional",
+      "menu-item#nossas-lojas",
+      "menu-item#cambucisa",
+      "menu-item#contato"
+    ]
+  },
+
+  "vtex.menu@2.x:menu#informacoes-mobile": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#acompanhar-pedidos",
+      "menu-item#perguntas-frequentes",
+      "menu-item#trocas-devolucoes",
+      "menu-item#politica-privacidade",
+      "menu-item#formas-pagamento",
+      "menu-item#atendimento-corporativo",
+      "menu-item#tabela-medidas"
+    ]
+  }
+
+}

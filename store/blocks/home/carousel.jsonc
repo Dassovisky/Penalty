@@ -1,0 +1,24 @@
+// Carrousel 
+{
+    "list-context.image-list#demo": {
+    "children": ["slider-layout#demo-images"],
+    "props": {
+      "infinite": true,
+      "fullWidth": true
+    }
+  },
+  "slider-layout#demo-images": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "infinite": true,
+      "fullWidth": true,
+      "showNavigationArrows": "desktopOnly",
+      "blockClass": "carousel"
+    }
+  }
+
+}

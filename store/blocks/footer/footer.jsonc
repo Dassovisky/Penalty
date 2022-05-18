@@ -1,0 +1,162 @@
+{
+  "footer": {
+    "blocks": [
+      "footer-layout.desktop",
+      "footer-layout.mobile"
+    ]
+  },
+  "footer-layout.desktop": {
+    "children": [
+      "flex-layout.row#footer-colunas",
+      "flex-layout.row#footer-direitos"
+    ]
+  },
+  "flex-layout.row#footer-colunas": {
+    "children": [
+      "flex-layout.col#redes-sociais",
+      "vtex.menu@2.x:menu#institucional",
+      "vtex.menu@2.x:menu#informacoes",
+      "flex-layout.col#footer-pagamentos"      
+    ],
+    "props": {
+      "blockClass": "menu_row",
+      "paddingTop": 7,
+      "paddingBottom": 6,
+      "fullWidth": false
+    }
+  },
+
+  //  Redes Sociais
+  "flex-layout.col#redes-sociais": {
+    "children": [
+      "rich-text#title-redes-sociais",
+      "social-networks",
+      "rich-text#patrocinio"
+    ],
+    "props": {
+      "blockClass": "redes_sociais"
+    }
+  },
+  "social-networks": {
+    "props": {
+      "blockClass": "footer_icons",
+      "socialNetworks": [
+        {
+          "name": "Facebook",
+          "url": "https://www.facebook.com/vtexonline/"
+        },
+        {
+          "name": "Instagram",
+          "url": "https://www.instagram.com/vtextruecloud/"
+        },
+        {
+          "name": "Linkedin",
+          "url": "https://twitter.com/vtexonline"
+        },
+        {
+          "name": "Youtube",
+          "url": "https://www.youtube.com/user/VTEXTV"
+        }
+      ]
+    }
+  },
+
+  "rich-text#title-redes-sociais":{
+    "props":{
+      "blockClass": ["footer_title", "footer_title_siga"],
+      "text": "Siga Penalty"
+    }
+  },
+  
+  // Patrocinio 
+  "rich-text#patrocinio":{
+    "props":{
+      "blockClass": ["footer_title", "footer_title_patrocinio"],
+      "text":"Patrocínio"
+    }
+  },
+
+  // Formas de Pagamento
+  "flex-layout.col#footer-pagamentos": {
+    "children": [
+      "rich-text#title-pagamentos"
+    ],
+    "props": {
+      "blockClass": "credits"
+    }
+  },
+  "rich-text#title-pagamentos":{
+    "props":{
+      "blockClass": "footer_title",
+      "text": "Formas de Pagamento"
+    }
+  },
+  
+
+  // Footer Direitos
+  "flex-layout.row#footer-direitos": {
+    "children": [
+      "rich-text#footer-direitos"
+    ],
+    "props": {
+      "blockClass": "credits"
+    }
+  },
+  "rich-text#footer-direitos": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "Copyright Penalty 2022 - www.penalty.com.br - TODOS OS DIREITOS RESERVADOS, CNPJ 61.088.894/0008-84, Av. Getulio Vargas, 930, 18130-430, São Roque - SP. \n Política de Cookies | Política de Privacidade",
+      "blockClass": "footer_direitos"
+    }
+  },
+
+
+  // Mobile Mobile Mobile Mobile Mobile Mobile Mobile Mobile Mobile Mobile Mobile Mobile Mobile Mobile Mobile Mobile Mobile Mobile Mobile Mobile Mobile Mobile Mobile Mobile Mobile  
+  "footer-layout.mobile": {
+    "children": [
+      "flex-layout.row#1-footer-mobile",
+      "flex-layout.row#2-footer-mobile"
+    ]
+  },
+  "flex-layout.row#2-footer-mobile": {
+    "children": ["flex-layout.col#footer-1-mobile"],
+    "props": {
+      "blockClass": "payment-methods",
+      "paddingTop": 4,
+      "paddingBottom": 4
+    }
+  },
+  "flex-layout.col#footer-1-mobile": {
+    "children": [
+      "accepted-payment-methods",
+      "social-networks",
+      "rich-text#footer-direitos-mobile"
+    ],
+    "props": {
+      "blockClass": "payment-methods",
+      "paddingTop": 4,
+      "paddingBottom": 4,
+      "rowGap": 4
+    }
+  },
+  "flex-layout.row#1-footer-mobile": {
+    "props": {
+      "paddingTop": 4,
+      "paddingBottom": 4
+    },
+    "children": [
+      "vtex.menu@2.x:menu#institucional-mobile",
+      "vtex.menu@2.x:menu#informacoes-mobile"
+    ]
+  },
+  "rich-text#footer-direitos-mobile": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "Copyright Penalty 2022 - www.penalty.com.br - TODOS OS DIREITOS RESERVADOS, CNPJ 61.088.894/0008-84, Av. Getulio Vargas, 930, 18130-430, São Roque - SP. \n Política de Cookies | Política de Privacidade",
+      "blockClass": "footer_direitos"
+    }
+  }
+  
+}

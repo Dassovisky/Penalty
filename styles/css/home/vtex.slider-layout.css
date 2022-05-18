@@ -1,12 +1,15 @@
 /* Shelf Product  */
 .slide--shelf {
-    margin: 0 5px 30px 5px;
+    margin: 0 5px 40px 5px;
     padding: 0 1rem 15px 1rem;
     border-radius: 15px;
     background: #fff;
 }
 
 /* Carousel  */
+.sliderLayoutContainer {
+    justify-content: center;
+  }
 .sliderLayoutContainer--carousel{
     width: 100%;
 }

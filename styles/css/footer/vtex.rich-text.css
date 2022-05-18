@@ -1,0 +1,29 @@
+/* Footer  */
+.wrapper--footer_title{
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin: 0 0 0 1.5rem;
+}
+.paragraph--footer_title{
+    margin: 0 0 10px 0;
+}
+
+/* Redes Sociais  */
+.wrapper--footer_title_redes{
+    font-size: 1rem;
+    color: #727272;
+    font-weight: 500;
+    margin: 0 0 0 1.5rem;
+}
+.paragraph--footer_title_patrocinio{
+    margin: 20px 0 0 0;
+}
+
+/* Direitos  */
+.wrapper--footer_direitos{
+    font-size: 12px;
+    color:#fff;
+}
+.link--footer_direitos{
+    color: #fff;
+}
