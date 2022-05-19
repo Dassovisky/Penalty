@@ -2,10 +2,12 @@
 .flexColChild--redes_sociais{
     max-height: 30px;
 }
-/* .flexRow--menu_row{
-} */
+.flexRow--menu_row{
+    padding: 35px 0 50px 0;
+    background-color: #000;
+}
 .flexRow--credits{
-    margin: 15px 0 0 0;
-    color: #fff;
-    background: #212529;
+    margin: 0;
+    color: #212529;
+    background: #fff;
 }

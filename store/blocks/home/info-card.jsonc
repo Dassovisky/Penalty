@@ -1,0 +1,38 @@
+{
+  "info-card#info-1": {
+      "props": {
+        "id": "info-card-example",
+        "isFullModeStyle": true,
+        "textPosition": "left",
+        "headline": "Clearance Sale",
+        "callToActionText": "DISCOVER",
+        "callToActionUrl": "/sale/d",
+        "blockClass": "info-card-example",
+        "textAlignment": "center"
+    }
+  },
+    "info-card#info-2": {
+      "props": {
+        "id": "info-card-example",
+        "isFullModeStyle": true,
+        "textPosition": "center",
+        "headline": "Clearance Sale",
+        "callToActionText": "DISCOVER",
+        "callToActionUrl": "/sale/d",
+        "blockClass": "info-card-example",
+        "textAlignment": "center"
+    }
+  },
+    "info-card#info-3": {
+      "props": {
+        "id": "info-card-example",
+        "isFullModeStyle": true,
+        "textPosition": "right",
+        "headline": "Clearance Sale",
+        "callToActionText": "DISCOVER",
+        "callToActionUrl": "/sale/d",
+        "blockClass": "info-card-example",
+        "textAlignment": "center"
+    }
+  }
+}

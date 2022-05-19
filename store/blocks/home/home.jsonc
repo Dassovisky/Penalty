@@ -5,10 +5,11 @@
       "list-context.image-list#demo",
       "flex-layout.row#deals",
       "rich-text#shelf-title",
-      "flex-layout.row#shelf"
-      // "info-card#info-1",
-      // "info-card#info-2",
-      // "info-card#info-3"
+      "flex-layout.row#shelf",
+      "info-card#info-1",
+      "info-card#info-2",
+      "info-card#info-3",
+      "newsletter"
     ]
   },
 
@@ -20,99 +21,11 @@
     }
   },
 
-
-  // Carrousel 
-  "list-context.image-list#demo": {
-    "children": ["slider-layout#demo-images"],
-    "props": {
-      "infinite": true,
-      "fullWidth": true
-    }
-  },
-  "slider-layout#demo-images": {
-    "props": {
-      "itemsPerPage": {
-        "desktop": 1,
-        "tablet": 1,
-        "phone": 1
-      },
-      "infinite": true,
-      "fullWidth": true,
-      "showNavigationArrows": "desktopOnly",
-      "blockClass": "carousel"
-    }
-  },
-
-  // Produtos 
-  "rich-text#shelf-title": {
-    "props": {
-      "text": "## Popular Agora",
-      "blockClass": "shelfTitle"
-    }
-  },
-  "flex-layout.row#shelf": {
+  "newsletter":{
     "props":{
-      "blockClass": "shelf_flexRow"
-    },
-    "children": [
-      "list-context.product-list#demo"
-    ]
-  },
-  "list-context.product-list#demo": {
-    "blocks": ["product-summary.shelf"],
-    "children": ["slider-layout#demo-products"],
-    "props": {
-      "orderBy": "OrderByTopSaleDESC"
-    }
-  },
-  "slider-layout#demo-products": {
-    "props": {
-      "itemsPerPage": {
-        "desktop": 4,
-        "tablet": 3,
-        "phone": 1
-      },
-      "infinite": true,
-      "fullWidth": false,
-      "blockClass": "shelf"
-    }
-  },
-
-  // Infocard 
-  "info-card#info-1": {
-    "props": {
-      "id": "info-card-example",
-      "isFullModeStyle": true,
-      "textPosition": "left",
-      "headline": "Clearance Sale",
-      "callToActionText": "DISCOVER",
-      "callToActionUrl": "/sale/d",
-      "blockClass": "info-card-example",
-      "textAlignment": "center"
-    }
-  },
-  "info-card#info-2": {
-    "props": {
-      "id": "info-card-example",
-      "isFullModeStyle": true,
-      "textPosition": "center",
-      "headline": "Clearance Sale",
-      "callToActionText": "DISCOVER",
-      "callToActionUrl": "/sale/d",
-      "blockClass": "info-card-example",
-      "textAlignment": "center"
-    }
-  },
-  "info-card#info-3": {
-    "props": {
-      "id": "info-card-example",
-      "isFullModeStyle": true,
-      "textPosition": "right",
-      "headline": "Clearance Sale",
-      "callToActionText": "DISCOVER",
-      "callToActionUrl": "/sale/d",
-      "blockClass": "info-card-example",
-      "textAlignment": "center"
+      "blockClass": "news",
+      "submit": "Cadastre-se",
+      "label": "RECEBA AS NOVIDADES DA PENALTY"
     }
   }
   

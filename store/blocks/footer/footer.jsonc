@@ -20,8 +20,6 @@
     ],
     "props": {
       "blockClass": "menu_row",
-      "paddingTop": 7,
-      "paddingBottom": 6,
       "fullWidth": false
     }
   },

@@ -1,3 +1,18 @@
+/* Icons Bar  */
+.flexRow--icons_bar {
+    background-color: #009c4e;
+    padding: 14px 0px;
+}
+
+.flexRow--icons_bar .stretchChildrenWidth {
+    align-items: center;
+}
+
+.flexRow--icons_bar .flexCol {
+    align-items: center;
+}
+
+
 /* Shelf Product  */
 .flexRow--shelf_flexRow{
     padding: 20px 0 15px 0;

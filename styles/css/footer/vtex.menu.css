@@ -1,4 +1,10 @@
 .styledLinkContent--footer_li{
+    font-family: "Rift";
     font-weight: 500;
-    color: #727272;
+    font-size: 1rem;
+    color: #727273;
+}
+.styledLinkContent--footer_li:hover{
+    color: #009e4e;
+    transition: all 0.3s ease-in-out;
 }

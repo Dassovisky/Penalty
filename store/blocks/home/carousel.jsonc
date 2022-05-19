@@ -1,4 +1,3 @@
-// Carrousel 
 {
     "list-context.image-list#demo": {
     "children": ["slider-layout#demo-images"],

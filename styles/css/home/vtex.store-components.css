@@ -1,7 +1,7 @@
 /* Info Card  */
 .infoCardContainer--info-card-example{
     height: 700px;
-    margin: 0 0 15px 0;
+    border: 0;
 }
 .infoCardHeadline--info-card-example,
 .infoCardSubhead--info-card-example{
@@ -11,4 +11,11 @@
     display: none;
 }
 
-
+.newsletter{
+    background: #000;
+    border-bottom: 1px #212529 solid;
+}
+.label--news{
+    font-family: "rift";
+    color: #009e4e;
+}

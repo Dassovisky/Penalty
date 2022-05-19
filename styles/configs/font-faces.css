@@ -1,0 +1,6 @@
+@font-face {
+    font-family: 'Roboto', 'Rift', sans-serif;
+    src: url(assets/fonts/RobotoFlex-Regular.ttf), url(/assets/fonts/Rift-Light.otf);
+    font-weight: 500;
+}
+
