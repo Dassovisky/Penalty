@@ -1,8 +1,12 @@
 .newsletterForm :global(.vtex-styleguide-9-x-input),
 .newsletterForm :global(.vtex-input-prefix__group){
     border-radius: 100px;
-    outline: none;
-    border-width: 0.1rem;
+    border: 2px transparent solid;
+    border-style: solid;
+    transition: all 0.3s ease-in-out;
+} 
+.newsletterForm :global(.vtex-input-prefix__group):hover{
+    border: 2px #009e4e solid;
 } 
 .newsletterForm :global(.vtex-button){
     font-family: rift;
