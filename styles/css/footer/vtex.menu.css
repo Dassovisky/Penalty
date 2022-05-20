@@ -2,9 +2,9 @@
     font-family: "Rift";
     font-weight: 500;
     font-size: 1rem;
-    color: #727273;
+    color: #727272;
+    transition: all 0.3s ease-in-out;
 }
 .styledLinkContent--footer_li:hover{
     color: #009e4e;
-    transition: all 0.3s ease-in-out;
 }

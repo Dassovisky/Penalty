@@ -7,9 +7,9 @@
       "rich-text#shelf-title",
       "flex-layout.row#shelf",
       "info-card#info-1",
-      "info-card#info-2",
-      "info-card#info-3",
-      "newsletter"
+      // "info-card#info-2",
+      // "info-card#info-3",
+      "newsletter-form"
     ]
   },
 
@@ -21,11 +21,57 @@
     }
   },
 
-  "newsletter":{
+  // Newsletter 
+  "newsletter-form": {
+    "children": [
+      "flex-layout.row#newsrow-title",
+      "flex-layout.row#newsrow-input",
+      "flex-layout.row#newsrow-button"
+    ]
+  },
+  "wishlist-button":{
     "props":{
-      "blockClass": "news",
-      "submit": "Cadastre-se",
-      "label": "RECEBA AS NOVIDADES DA PENALTY"
+      "blockClass": "wishlist_button"
+    }
+  },
+  "flex-layout.row#newsrow-title":{
+    "children": [
+      "rich-text#news-title"
+    ]
+  },
+  "flex-layout.row#newsrow-input":{
+    "children": [
+      "header-spacer",
+      "newsletter-input-name",
+      "newsletter-input-email",
+      "header-spacer"
+    ]
+  },
+  "flex-layout.row#newsrow-button":{
+    "children": [
+      "newsletter-submit"
+    ]
+  },
+  "rich-text#news-title": {
+    "props": {
+      "blockClass": "news_title",
+      "text": "RECEBA AS NOVIDADES DA PENALTY"
+    }
+  },
+  "newsletter-input-name":{
+    "props":{
+      "placeholderText": "Nome"
+    }
+  },
+  "newsletter-input-email":{
+    "props":{
+      "placeholderText": "E-mail"
+    }
+  },
+  "newsletter-submit":{
+    "props":{
+      "blockClass": "news_button",
+      "submitButtonLabel": "Receber"
     }
   }
   

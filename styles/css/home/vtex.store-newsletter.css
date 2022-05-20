@@ -1,0 +1,28 @@
+.newsletterForm :global(.vtex-styleguide-9-x-input),
+.newsletterForm :global(.vtex-input-prefix__group){
+    border-radius: 100px;
+    outline: none;
+    border-width: 0.1rem;
+} 
+.newsletterForm :global(.vtex-button){
+    font-family: rift;
+    font-weight: bold;
+    color: #212529;
+    background-color: #009e4e;
+    border-radius: 50px;
+    font-size: 18px;
+    border: 0;
+} 
+.newsletterForm{
+    padding: 50px 0;
+    background: #212529;
+    justify-content: center;
+    text-align: center;
+}
+.emailInputContainer,
+.nameInputContainer{
+    margin: 0 10px 25px 10px; 
+}
+.formSubmitContainer--news-button{
+    border-radius: 0;
+}

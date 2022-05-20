@@ -1,4 +1,7 @@
 /* Shelf Product  */
+.slide--shelf :global(.vtex-button){
+    font-weight: bold;
+}
 .slide--shelf {
     margin: 0 5px 40px 5px;
     padding: 0 1rem 15px 1rem;

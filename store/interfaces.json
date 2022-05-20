@@ -1,5 +1,5 @@
 {
-    "cnpj-bar":{
-        "component": "CNPJ"
+    "wishlist-button":{
+        "component": "Wishlistbutton"
     }
 }

@@ -11,6 +11,11 @@
       "add-to-cart-button"
     ]
   },
+  "add-to-list-btn":{
+    "props":{
+      "blockClass": "wishlist_button"
+    }
+  },
   "flex-layout.col#productRating": {
     "props": {
       "blockClass": "productRating"
@@ -22,10 +27,10 @@
     "children": [
       "product-summary-image#shelf",
       "vtex.product-highlights@2.x:product-highlights#collection",
-      "modal-trigger#quickview" // Check quickview.jsonc
+      "add-to-list-btn",
+      "modal-trigger#quickview"
     ]
   },
-
   "product-summary-image#shelf": {
     "props": {
       "showBadge": false,

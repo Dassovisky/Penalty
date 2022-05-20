@@ -14,6 +14,7 @@
   background: #eef3f7;
   border-color:#eef3f7;
   color: #009c4e;
+  border-radius: 0;
 }
 
 .flexRow--buyNowButton:hover :global(.vtex-button) {

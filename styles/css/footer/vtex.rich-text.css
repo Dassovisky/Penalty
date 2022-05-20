@@ -1,7 +1,22 @@
+/* Newsletter */
+.container--news_title{
+    max-height: 50px;
+    margin: 0 0 1rem 0;
+    text-align: center;
+    font-weight: bold;
+    justify-content: center;
+    align-items: center;
+}
+.paragraph--news_title{
+    font-family: rift;
+    font-size: 2.5rem;
+    color: #fff;
+}
+
 /* Footer  */
 .wrapper--footer_title{
     font-family: "Rift";
-    color: #fff;
+    color: #aaa;
     font-size: 1.6rem;
     font-weight: bold;
     margin: 0 0 0 1.5rem;
@@ -11,14 +26,25 @@
 }
 
 /* Redes Sociais  */
-.wrapper--footer_title_redes{
+.container--footer_eusoupenalty{
+    font-family: "Rift";
     font-size: 1rem;
-    color: #fff;
-    font-weight: 500;
-    margin: 0 0 0 1.5rem;
+    font-weight: bold;
+    margin: 2.8rem 0 0 1.5rem;
+    color: #727272;
 }
-.paragraph--footer_title_patrocinio{
-    margin: 20px 0 0 0;
+.link--footer_eusoupenalty{
+    color: #727272;
+    transition: all 0.3s ease-in-out;
+}
+.link--footer_eusoupenalty:hover{
+    color: #009e4e;
+}
+.paragraph--footer_patrocinio{
+    margin: 25px 0 0 0;
+}
+.paragraph--footer_blog{
+    margin: 60px 0 0 0;
 }
 
 /* Direitos  */

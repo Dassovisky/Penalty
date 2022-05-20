@@ -1,0 +1,13 @@
+.wishlistIconContainer--wishlist_button :global(.vtex-button){
+    padding-left: 0;
+}
+.wishlistIcon--wishlist_button :global(.vtex-button){
+    padding-left: 0;
+}
+
+.wishlistIconContainer--wishlist_button :global(.vtex-button):hover{
+    background: transparent;
+}
+.wishlistIcon--wishlist_button :global(.vtex-button):hover{
+    background: transparent;
+}
