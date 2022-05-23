@@ -1,6 +1,3 @@
-.openIconContainer:hover .cartIcon{
+.container :global(.vtex-login-2-x-profileIcon):hover{
     color: #fff;
 }
-/* .container:hover .profileIcon{
-    color: #fff;
-} */

@@ -1,0 +1,21 @@
+/* Main Menu */
+.styledLinkContent--main_menu{
+    font-family: rift;
+    color: #fff;
+    font-size: 1.1rem;
+    padding: .8rem 0;
+    letter-spacing: .2rem;
+    font-weight: bold;
+}
+.menuItem--main_menu{
+    font-family: rift;
+    color: #fff;
+    margin: 0 0 0 10px;
+    font-size: 20px;
+    font-weight: bold;
+    border-bottom: 2px transparent solid;
+    transition: all 0.3s ease-in-out;
+}
+.menuItem--main_menu:hover{
+    border-bottom: 2px #fff solid;
+}

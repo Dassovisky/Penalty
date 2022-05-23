@@ -9,7 +9,7 @@
 .container--CNPJ{
     font-size: 14px;
     padding: 0 15px;
-    background: #E2E3E5;
+    background: #f0f0f0;
 }
 .link--CNPJ{
     color: #000;
@@ -29,4 +29,3 @@
     color: #dfdfdf;
     font-weight: bold;
 }
-

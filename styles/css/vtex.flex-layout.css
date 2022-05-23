@@ -17,7 +17,7 @@
 }
 
 .flexRowContent--menu-link {
-  background-color: #009e4e;
+  background-color: #009a4e;
   color: #fff;
 }
 
@@ -25,16 +25,6 @@
   align-items: center;
   padding: 0.625rem 0.5rem;
   background-color: #f0f0f0;
-}
-
-.flexRowContent--menu-link :global(.vtex-menu-2-x-styledLink) {
-  color: #ffffff;
-  font-size: 14px;
-}
-
-.flexRowContent--main-header :global(.vtex-menu-2-x-styledLink) {
-  color: #727273;
-  font-size: 14px;
 }
 
 

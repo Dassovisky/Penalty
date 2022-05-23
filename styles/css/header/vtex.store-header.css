@@ -16,12 +16,6 @@
   will-change: padding, background;
 }
 
-/* main header desktop has a bigger padding when not stuck */
-:global(.vtex-flex-layout-0-x-flexRowContent--main-header) {
-  padding-top: 0.5rem;
-  padding-bottom: 0.5rem;
-}
-
 /* add a box-shadow to desktop/mobile header when stuck */
 :global(.vtex-sticky-layout-0-x-wrapper--stuck)
   :global(.vtex-flex-layout-0-x-flexRowContent--main-header),

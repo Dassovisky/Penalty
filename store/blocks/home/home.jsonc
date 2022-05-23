@@ -7,7 +7,8 @@
       "rich-text#shelf-title",
       "flex-layout.row#shelf",
       "info-card#info-1",
-      // "info-card#info-2",
+      "flex-layout.row#shelf",
+      "info-card#info-2",
       // "info-card#info-3",
       "newsletter-form"
     ]
@@ -17,7 +18,8 @@
   "rich-text#cnpj": {
     "props": {
       "blockClass": "CNPJ",
-      "text": "**[Compre](https://www.google.com)** com CNPJ"
+      "textPosition": "CENTER",
+      "text": "**[Compre](https://www.google.com)** aqui com CNPJ e ganhe **20% de desconto!**"
     }
   },
 
@@ -42,14 +44,15 @@
   "flex-layout.row#newsrow-input":{
     "children": [
       "header-spacer",
-      "newsletter-input-name",
       "newsletter-input-email",
       "header-spacer"
     ]
   },
   "flex-layout.row#newsrow-button":{
     "children": [
-      "newsletter-submit"
+      "header-spacer",
+      "newsletter-submit",
+      "header-spacer"
     ]
   },
   "rich-text#news-title": {
@@ -58,11 +61,7 @@
       "text": "RECEBA AS NOVIDADES DA PENALTY"
     }
   },
-  "newsletter-input-name":{
-    "props":{
-      "placeholderText": "Nome"
-    }
-  },
+
   "newsletter-input-email":{
     "props":{
       "placeholderText": "E-mail"

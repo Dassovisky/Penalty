@@ -1,9 +1,15 @@
 /* Notification Bar */
 .notificationBarInner{
   min-height: 30px;
+  color: #fff;
 }
 .notificationBarContainer {
-  background-color: #009b4e;
+  background-color: #009a4e;
   font-size: 12px;
   font-weight: bold;
+}
+
+/* Menu  */
+.logoImage{
+  max-width: 100%;
 }

@@ -1,4 +1,21 @@
 /* Menu */
 .flexRowContent--main-header {
-  background-color: #212529;
+  padding: 0;
+  background-color: #000;
+}
+/* main header desktop has a bigger padding when not stuck */
+:global(.vtex-flex-layout-0-x-flexRowContent--main-header) {
+  padding: 0
+}
+.flexRowContent--menu-link :global(.vtex-menu-2-x-styledLink) {
+  color: #ffffff;
+  font-size: 14px;
+}
+
+.flexRowContent--main-header :global(.vtex-menu-2-x-styledLink) {
+  color: #727273;
+  font-size: 14px;
+}
+.flexCol--menu_logo{
+  max-width: 100px;
 }

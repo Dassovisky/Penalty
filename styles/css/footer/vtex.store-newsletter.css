@@ -1,32 +1,34 @@
 .newsletterForm :global(.vtex-styleguide-9-x-input),
 .newsletterForm :global(.vtex-input-prefix__group){
-    border-radius: 100px;
+    border-radius: 0;
     border: 2px transparent solid;
     border-style: solid;
+    margin: 0 0 0 7px;
     transition: all 0.3s ease-in-out;
 } 
 .newsletterForm :global(.vtex-input-prefix__group):hover{
-    border: 2px #009e4e solid;
+    border: 2px #009a4e solid;
 } 
 .newsletterForm :global(.vtex-button){
-    font-family: rift;
-    font-weight: bold;
+    font-weight: 500;
     color: #212529;
-    background-color: #009e4e;
-    border-radius: 50px;
-    font-size: 18px;
+    background-color: #fff;
+    border-radius: 0;
+    font-size: 15px;
     border: 0;
-} 
+    transition: all 0.3s ease-in-out;
+}
+.newsletterForm :global(.vtex-button):hover{
+    background-color: #009a4e;
+    color: #fff;
+}
 .newsletterForm{
-    padding: 50px 0;
-    background: #212529;
+    padding: 100px 0;
+    background: #000;
     justify-content: center;
     text-align: center;
 }
 .emailInputContainer,
 .nameInputContainer{
-    margin: 0 10px 25px 10px; 
-}
-.formSubmitContainer--news-button{
-    border-radius: 0;
+    margin: 0 0 25px 0; 
 }
