@@ -19,7 +19,7 @@
   },
   "image#deal1": {
     "props": {
-      "src": "https://storecomponents.vteximg.com.br/arquivos/box.png",
+      "src": "assets/icons/package.png",
       "maxHeight": "24px"
     }
   },
@@ -37,8 +37,8 @@
   },
   "image#deal2": {
     "props": {
-      "src": "https://storecomponents.vteximg.com.br/arquivos/delivery-fast.png",
-      "maxHeight": "24px"
+      "src": "assets/icons/caminhao-de-entrega.png",
+      "maxHeight": "30px"
     }
   },
   "rich-text#deal2": {
@@ -55,13 +55,13 @@
   },
   "image#deal3": {
     "props": {
-      "src": "https://storecomponents.vteximg.com.br/arquivos/store.png",
+      "src": "assets/icons/shopping-bag.png",
       "maxHeight": "24px"
     }
   },
   "rich-text#deal3": {
     "props": {
-      "text": "Loja Online",
+      "text": "Compra Segura",
       "blockClass": "deals"
     }
   },
@@ -73,8 +73,8 @@
   },
   "image#deal4": {
     "props": {
-      "src": "https://storecomponents.vteximg.com.br/arquivos/coupon.png",
-      "maxHeight": "24px"
+      "src": "assets/icons/cupom.png",
+      "maxHeight": "27px"
     }
   },
   "rich-text#deal4": {

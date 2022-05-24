@@ -7,6 +7,10 @@
 :global(.vtex-flex-layout-0-x-flexRowContent--main-header) {
   padding: 0
 }
+/* Concerto da margin */
+:global(.vtex-menu-2-x-styledLinkContainer){ 
+  margin: 0 20px;
+}
 .flexRowContent--menu-link :global(.vtex-menu-2-x-styledLink) {
   color: #ffffff;
   font-size: 14px;

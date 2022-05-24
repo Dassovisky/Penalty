@@ -1,21 +1,24 @@
 /* Main Menu */
 .styledLinkContent--main_menu{
     font-family: rift;
-    color: #fff;
-    font-size: 1.1rem;
+    color: #aaa;
+    font-size: 1.3rem;
     padding: .8rem 0;
-    letter-spacing: .2rem;
+    letter-spacing: .1rem;
     font-weight: bold;
+    border-bottom: 2px transparent solid;
+}
+.styledLinkContent--main_menu:hover{
+    color: #fff;
+    border-bottom: 2px #fff solid;
 }
 .menuItem--main_menu{
     font-family: rift;
-    color: #fff;
-    margin: 0 0 0 10px;
+    margin: 0;
     font-size: 20px;
     font-weight: bold;
-    border-bottom: 2px transparent solid;
     transition: all 0.3s ease-in-out;
 }
-.menuItem--main_menu:hover{
-    border-bottom: 2px #fff solid;
+.styledLinkContent--main_menu_highlight{
+    color: #fff;
 }
