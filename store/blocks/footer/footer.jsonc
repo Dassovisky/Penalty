@@ -16,6 +16,7 @@
       "flex-layout.col#redes-sociais",
       "vtex.menu@2.x:menu#institucional",
       "vtex.menu@2.x:menu#informacoes",
+      "header-spacer",
       "flex-layout.col#footer-pagamentos"      
     ],
     "props": {

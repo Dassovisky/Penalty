@@ -25,9 +25,11 @@
 
   "stack-layout#prodsum": {
     "children": [
+      
       "product-summary-image#shelf",
       "vtex.product-highlights@2.x:product-highlights#collection",
       "add-to-list-btn",
+      // "wishlist-button",
       "modal-trigger#quickview"
     ]
   },
