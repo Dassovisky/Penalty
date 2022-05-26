@@ -1,5 +1,25 @@
 /* Shelf Product */
-.installments--summary {
-    margin: 0 0 15px 0;
-    font-size: 0.875rem;
+
+/* Caixa Preço  */
+:global(.vtex-product-price-1-x-sellingPrice--summary){ 
+    position: absolute;
+    right: 1rem;
+    padding: 7px 20px 10px 20px;
+    background: #000;
+}
+:global(.vtex-product-price-1-x-sellingPrice--summary)::first-line{ 
+    width: 10px;
+    height: 10px;
+    background: 000;
+}
+.currencyCode--summary_price,
+.currencyInteger--summary_price,
+.currencyDecimal--summary_price,
+.currencyFraction--summary_price{
+    font-weight: 100;
+    font-size: 22px;
+    color: #fff;
+}
+.installments--summary{
+    margin: 0 0 25px 0;
 }

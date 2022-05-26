@@ -1,7 +1,8 @@
 {
   "add-to-cart-button": {
     "props": {
-      "text": "COMPRAR",
+      "blockClass": "add_button",
+      "text": "+",
       "addToCartFeedback": "customEvent",
       "customPixelEventId": "add-to-cart-button"
     }

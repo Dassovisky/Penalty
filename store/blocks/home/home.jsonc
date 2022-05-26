@@ -7,8 +7,8 @@
       "rich-text#shelf-title",
       "flex-layout.row#shelf",
       "info-card#info-1",
-      "flex-layout.row#shelf",
-      "info-card#info-2",
+      // "flex-layout.row#shelf",
+      // "info-card#info-2",
       // "info-card#info-3",
       "newsletter-form"
     ]

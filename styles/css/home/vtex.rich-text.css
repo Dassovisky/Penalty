@@ -7,9 +7,12 @@
 
 /* CNPJ */
 .container--CNPJ{
-    font-size: 14px;
-    padding: 0 15px;
+    font-size: 15px;
+    padding: 0;
     background: #f0f0f0;
+}
+.paragraph--CNPJ{
+    margin: 10px 0;
 }
 .link--CNPJ{
     color: #000;
@@ -24,6 +27,7 @@
     height: 30px;
 }
 .paragraph--deals{
+    font-size: 15px;
     margin: 0 0 30px 0;
     color: #fff;
     font-weight: 500;

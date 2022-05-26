@@ -1,11 +1,11 @@
 /* Notification Bar */
 .notificationBarInner{
-  min-height: 30px;
+  min-height: 35px;
   color: #fff;
 }
 .notificationBarContainer {
   background-color: #009a4e;
-  font-size: 12px;
+  font-size: 15px;
   font-weight: bold;
 }
 

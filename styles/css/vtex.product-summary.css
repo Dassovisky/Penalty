@@ -17,12 +17,6 @@
   }
 }
 
-.nameContainer {
-  justify-content: start;
-  padding-top: 1rem;
-  padding-bottom: 1rem;
-}
-
 .brandName {
   font-weight: 600;
   font-size: 18px;
