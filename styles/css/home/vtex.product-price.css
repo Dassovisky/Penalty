@@ -3,14 +3,12 @@
 /* Caixa Preço  */
 :global(.vtex-product-price-1-x-sellingPrice--summary){ 
     position: absolute;
-    right: 1rem;
+    right: 1.3rem;
+    bottom: 90px;
     padding: 7px 20px 10px 20px;
+    border-radius: 50px;
     background: #000;
-}
-:global(.vtex-product-price-1-x-sellingPrice--summary)::first-line{ 
-    width: 10px;
-    height: 10px;
-    background: 000;
+    
 }
 .currencyCode--summary_price,
 .currencyInteger--summary_price,
@@ -21,5 +19,5 @@
     color: #fff;
 }
 .installments--summary{
-    margin: 0 0 25px 0;
+    margin: 0 0 25px 1.3rem;
 }

@@ -4,9 +4,14 @@
       "stack-layout#prodsum",
       "flex-layout.row#selling-price-savings",
       "product-summary-name",
+      "flex-layout.row#row-button",
       // "flex-layout.col#productRating",
       "product-list-price#summary",
-      "product-installments#summary",
+      "product-installments#summary"
+    ]
+  },
+  "flex-layout.row#row-button":{
+    "children":[
       "add-to-cart-button"
     ]
   },

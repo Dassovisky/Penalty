@@ -1,4 +1,4 @@
-/* Icons Bar  */
+/* Icons Bar */
 .flexRow--icons_bar {
     background-color: #009c4e;
     padding: 15px 0 12px 0;
@@ -12,18 +12,21 @@
     align-items: center;
 }
 
-/* Shelf Product  */
+/* Shelf Product */
 /* Caixa Shelf */
 :global(.vtex-product-summary-2-x-container){
+    max-width: 400px !important;
     background: #fff;
     margin: 0;
+    border-radius: 50px;
 }
 .flexRowContent--row_preco{
     display: flex;
     justify-content: flex-end;
+    border-top: 1px #efefef solid;
 }
 .flexRow--shelf_flexRow{
-    padding: 20px 0 15px 0;
+    padding: 30px 0 25px 0;
     margin: 0;
     background: #F8F8FA;
 }
