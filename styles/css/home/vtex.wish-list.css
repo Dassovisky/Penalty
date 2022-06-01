@@ -1,6 +1,8 @@
 .wishlistIconContainer--wishlist_button :global(.vtex-button){
     position: absolute;
-    left: -20px;
+    top: 0;
+    left: 0;
+    background: transparent;
 }
 .wishlistIconContainer--wishlist_button :global(.vtex-button):hover{
     background: transparent;

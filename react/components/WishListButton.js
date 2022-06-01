@@ -1,19 +1,19 @@
 import React from 'react'
-import {useCssHandles} from 'vtex.css-handles'
-import './WishListButton.css'
+// import {useCssHandles} from 'vtex.css-handles'
+// import './WishListButton.css'
 
-    const CSS_HANDLES = [
-        'wishlistbutton',
-        'sliderlays'
-    ]
+    // const CSS_HANDLES = [
+    //     'wishlist__button'
+    // ]
 
 const WishListButton = () => {
 
-    const handles = useCssHandles(CSS_HANDLES)
-
+    // const handles = useCssHandles(CSS_HANDLES)
+    // className={`${handles.wishlist__button}`}
     return (
         <>
-            <div className={`${handles.wishlistbutton}`}></div>
+            <div>Clique
+            </div>
         </>
     )
 

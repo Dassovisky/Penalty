@@ -31,11 +31,6 @@
       "flex-layout.row#newsrow-button"
     ]
   },
-  "wishlist-button":{
-    "props":{
-      "blockClass": "wishlist_button"
-    }
-  },
   "flex-layout.row#newsrow-title":{
     "children": [
       "rich-text#news-title"

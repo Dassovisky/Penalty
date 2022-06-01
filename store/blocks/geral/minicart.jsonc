@@ -2,7 +2,7 @@
   "add-to-cart-button": {
     "props": {
       "blockClass": "add_button",
-      "text": "+",
+      "text": "Compre agora",
       "addToCartFeedback": "customEvent",
       "customPixelEventId": "add-to-cart-button"
     }

@@ -1,11 +1,5 @@
-.wishlistbutton{
+.wishlist__button{
+    margin: 0 3rem 0 1rem;
     color: #fff;
-    margin: 0;
-    background: #009a4e;
-}
-.sliderlays{
-    color: #fff;
-    margin: 0;
-    background: #009a4e;
-    display: none;
+    background: #009e4e;
 }
